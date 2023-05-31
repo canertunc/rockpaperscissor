@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/e-eglopy" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="card-header">
+            <h1>ROCK PAPER SCISSORS</h1>
+        </div>
+
+        <div class="card-body">
+
+            <div class="card-score">
+                <h2>PLAYER</h2>
+                <p id="player-score">0</p>
+            </div>
+            <div class="result">
+
+                <div class="result-choice-detail">
+
+                    <div class="result-choice" id="player-result">
+
+
+                    </div>
+                    <div class="result-choice" id="computer-result">
+
+
+                    </div>
+                </div>
+
+                <div class="head-result">
+
+                </div>
+
+            </div>
+
+            <div class="card-score">
+                <h2>COMPUTER</h2>
+                <p id="computer-score">0</p>
+            </div>
+
+        </div>
+
+        <div class="card-body" id="other-body">
+
+            <div class="card-choices" id="choices">
+                <div class="choice" id="rock-id">
+                    <img src="./images/rock.png" alt="tas" class="choice-image" id="rock">
+                </div>
+                <div class="choice">
+                    <img src="./images/paper.png" alt="kagit" class="choice-image" id="paper">
+
+                </div>
+                <div class="choice">
+                    <img src="./images/scissors.png" alt="makas" class="choice-image" id="scissors">
+                </div>
+            </div>
+
+            <div class="card-choices">
+                <div class="reset">
+                    <div>
+                        <h2 id="reset-head">RESET</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
